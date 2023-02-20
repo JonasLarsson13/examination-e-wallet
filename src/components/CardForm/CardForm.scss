@@ -1,0 +1,30 @@
+.app__cardform {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .app__cardform-smallinputs {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .app__cardform-select {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            font-size: 0.7rem;
+            font-family: "PT Mono";
+            opacity: 0.8;
+        }
+
+        select {
+            padding: 0.6rem;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 4px;
+            font-family: "PT Mono";
+        }
+    }
+}

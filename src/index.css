@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bitcoin-orange: #F8AE4E;
+  --ninja-black: #353536;
+  --block_chain-purple: #7350DF;
+  --evil_corp-red: #CF3546;
+}
+
+html, body {
+  background: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}

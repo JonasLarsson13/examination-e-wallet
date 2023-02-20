@@ -1,0 +1,22 @@
+.app__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.4rem;
+    font-family: "Source Sans Pro";
+
+    h1 {
+        width: 70%;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.8rem;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+        color: rgb(85, 85, 85);
+    }
+}

@@ -1,0 +1,15 @@
+.app__buttom {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-family: "Source Sans Pro";
+
+    &.filled {
+        background: black;
+        color: white;
+    }
+}

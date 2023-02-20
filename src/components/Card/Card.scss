@@ -1,0 +1,76 @@
+.app__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(248.3deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0) 100%);
+    background-color: #D0D0D0;
+    padding: 0.8rem 0.6rem;
+    border-radius: 8px;
+    font-family: "PT Mono";
+
+    .app__card-delete {
+        position: absolute;
+        left: calc(50% - 35px);
+        display: flex;
+        justify-content: center;
+        background: red;
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+        width: 70px;
+        color: white;
+        font-size: 0.8rem;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        transform: translateY(-0.8rem);
+        opacity: 0;
+        pointer-events: none;
+
+        &.active {
+            transform: translateY(0);
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+
+    .app__card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .chip {
+            max-width: 36px;
+        }
+        .vendor {
+            max-height: 30px;
+        }
+    }
+
+    .app__card-number {
+        width: 100%;
+        font-size: 1.5rem;
+        padding-bottom: 0rem;
+        padding-top: 0.7rem;
+        text-align: justify;
+
+        :after {
+            content: "";
+            display: inline-block;
+            width: 100%;
+        }
+    }
+
+    .app__card-middle {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-size: 0.7rem;
+            opacity: 0.8;
+        }
+    }
+
+    .app__card-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+}

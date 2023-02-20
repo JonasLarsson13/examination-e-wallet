@@ -1,0 +1,23 @@
+.app__cardstack {
+    position: relative;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        .app__card {
+            box-shadow: 0 0 300px rgba(0, 0, 0, 0.8) inset;
+        }
+    }
+
+    .app__card {
+        position: absolute;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            transform: translateY(-16px) rotate(-3deg);
+            box-shadow: 0 0 0 transparent inset;
+        }
+    }
+}
